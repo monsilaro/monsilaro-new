@@ -1,32 +1,31 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "monsilaro",
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "Simon Larouche <monsilaro@gmail.com>",
   "dependencies": {
-    "@fontsource/merriweather": "^5.0.8",
     "@fontsource-variable/montserrat": "^5.0.17",
+    "@fontsource/merriweather": "^5.0.8",
     "gatsby": "^5.13.3",
     "gatsby-plugin-feed": "^5.13.1",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-sharp": "^5.13.1",
-    "gatsby-remark-images": "^7.13.1",
-    "gatsby-remark-prismjs": "^7.13.1",
     "gatsby-remark-responsive-iframe": "^6.13.1",
     "gatsby-source-filesystem": "^5.13.1",
-    "gatsby-transformer-remark": "^6.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
-    "prismjs": "^1.29.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
-    "prettier": "^2.8.8"
+    "@types/node": "^20.11.20",
+    "@types/react": "^18.2.58",
+    "@types/react-dom": "^18.2.19",
+    "eslint-config-react-app": "^7.0.1",
+    "gatsby-plugin-postcss": "^6.13.1",
+    "prettier": "^2.8.8",
+    "typescript": "^5.3.3"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
@@ -40,7 +39,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
